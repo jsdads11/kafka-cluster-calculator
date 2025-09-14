@@ -5,7 +5,7 @@ const KafkaClusterCalculator = () => {
   const [activeTab, setActiveTab] = useState('overview');
   const [calculations, setCalculations] = useState({});
 
-  // easyJetBusiness domains configuration
+  // easyJet Business domains configuration
   const businessDomains = {
     cust: {
       name: 'Customer',
